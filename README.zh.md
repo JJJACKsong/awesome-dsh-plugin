@@ -4132,6 +4132,7 @@ dsh plugin --profile web add dshmarket
 - [jinsiyu/dsh-safemode-profile](https://github.com/jinsiyu/dsh-safemode-profile) — dsh安全模式插件，通过构建空白profile实现零第三方插件启动。
 - [JinSuperOfficial/dsh-proxy-switcher](https://github.com/JinSuperOfficial/dsh-proxy-switcher) — 在 dsh 运行过程中热切换出站代理（直连/系统/自定义），无需重启即可生效
 - [jinwendijv/dsh-applauncher](https://github.com/jinwendijv/dsh-applauncher) — 扫描本机已安装的 Windows 应用，在侧边栏设置图标上方提供一键启动。
+- [JJJACKsong/sleep-not-permitted](https://github.com/JJJACKsong/sleep-not-permitted) — 禁止 Agent 前台等待：sleep / wait / tail -f / watch / ping 等等待型命令、wait_agent 与 job_output(wait) 等阻塞等待工具，用反复 check 代替等待的轮询（同一条命令在窗口内重复出现），以及需要人输入/确认的命令（sudo 不加 -n、ssh 不开 BatchMode、登录流程、交互式编辑器、docker -it）都会被拒绝，并给出改用后台作业或结束本轮等唤醒的可执行指令；等待预算与轮询窗口可配、文案跟随系统语言（中/英）、零运行时依赖。
 - [jockiller/dsh-translator](https://github.com/jockiller/dsh-translator) — DSH 输入框悬浮快捷翻译挂件：支持当前会话模型、智谱 GLM 与自定义端点，提供预览/替换/追加、连通性测试及最近历史找回。
 - [joeseesun/qiaomu-rss-dsh](https://github.com/joeseesun/qiaomu-rss-dsh) — 阅读 RSS、获取播客原文、收录网页并生成改写，在 Harness 原生对话中伴读。
 - [JoFe2/kaleidosphere-dsh-plugin](https://github.com/JoFe2/kaleidosphere-dsh-plugin) — KaleidoSphere 数据库分析插件：六个原生工具（状态/发现/分析/计划/预览/回读），针对只读的 Microsoft SQL Server 与 Oracle，默认走内置确定性 fixture，运行时随包分发、无需外部服务。
